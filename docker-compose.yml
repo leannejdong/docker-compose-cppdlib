@@ -1,0 +1,8 @@
+version: '3'
+services:
+  my_cpp_app:
+    build:
+      context: .
+    volumes:
+      - .:/app
+    container_name: my_cpp_container
